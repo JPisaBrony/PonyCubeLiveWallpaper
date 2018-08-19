@@ -2,7 +2,7 @@
 
 Android live wallpaper written using Ogre3D version 1.10
 
-build guide
+### build guide
 
 ogre libs are prebuild and included in this repo so building is quite simple
 
