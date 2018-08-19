@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="com.jp.ogrelivewallpaper">
+    package="com.jp.ponycubelivewallpaper">
 
     <application
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +9,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         
-        <service android:name="com.jp.ogrelivewallpaper.Service"
-            android:label="OgreLivewallapaper"
+        <service android:name="com.jp.ponycubelivewallpaper.Service"
+            android:label="ponycubelivewallpaper"
             android:permission="android.permission.BIND_WALLPAPER">
 
             <intent-filter>

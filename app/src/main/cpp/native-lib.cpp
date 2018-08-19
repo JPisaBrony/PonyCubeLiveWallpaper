@@ -22,7 +22,7 @@ void createScene();
 void renderLoop();
 
 extern "C" {
-    JNIEXPORT void JNICALL Java_com_jp_ogrelivewallpaper_Service_00024ServiceEngine_nativeSurfaceCreate(JNIEnv *env, jobject thiz, jobject surface, jobject asset) {
+    JNIEXPORT void JNICALL Java_com_jp_ponycubelivewallpaper_Service_00024ServiceEngine_nativeSurfaceCreate(JNIEnv *env, jobject thiz, jobject surface, jobject asset) {
         // create a native window from java surface
         ANativeWindow *window = ANativeWindow_fromSurface(env, surface);
         // check if that window has already been created
@@ -48,14 +48,14 @@ extern "C" {
         }
     }
 
-    JNIEXPORT void JNICALL Java_com_jp_ogrelivewallpaper_Service_00024ServiceEngine_nativeDraw(JNIEnv *env, jobject thiz) {
+    JNIEXPORT void JNICALL Java_com_jp_ponycubelivewallpaper_Service_00024ServiceEngine_nativeDraw(JNIEnv *env, jobject thiz) {
         // main render loop
         renderLoop();
         // render a single frame
         appContext.getRoot()->renderOneFrame();
     }
 
-    JNIEXPORT void JNICALL Java_com_jp_ogrelivewallpaper_Service_00024ServiceEngine_nativeDestroy(JNIEnv *env, jobject thiz) {
+    JNIEXPORT void JNICALL Java_com_jp_ponycubelivewallpaper_Service_00024ServiceEngine_nativeDestroy(JNIEnv *env, jobject thiz) {
         // check if we actually want to destroy the instance
         if(destroy) {
             // destroy it

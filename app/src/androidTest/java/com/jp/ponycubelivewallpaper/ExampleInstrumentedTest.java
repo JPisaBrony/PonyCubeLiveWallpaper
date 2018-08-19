@@ -1,4 +1,4 @@
-package com.jp.ogrelivewallpaper;
+package com.jp.ponycubelivewallpaper;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

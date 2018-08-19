@@ -1,4 +1,4 @@
-package com.jp.ogrelivewallpaper;
+package com.jp.ponycubelivewallpaper;
 
 import org.junit.Test;
 
