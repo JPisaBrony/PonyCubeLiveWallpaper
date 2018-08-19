@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
         
         <service android:name="com.jp.ponycubelivewallpaper.Service"
-            android:label="ponycubelivewallpaper"
+            android:label="PonyCubeLiveWallpaper"
             android:permission="android.permission.BIND_WALLPAPER">
 
             <intent-filter>
